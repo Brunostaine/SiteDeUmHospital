@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
@@ -11,12 +12,29 @@
 header {
     width: 100%;
 }
-.logomenu {
-    width: 4rem;
-    margin-left: 20px;
-    margin-top: 20px;
+
+.Titulo-principal {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    left: 290px;
+    top: 25px;
+    width: 10px;
+    text-align: justify;
+    color: rgb(151 0 0);
+    line-height: 25px;
+    cursor: pointer;
     
 }
+
+.logomenu {
+    width: 5rem;  
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
 
 nav ul {
     list-style: none;
@@ -35,14 +53,14 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     margin-left: 10px;
-    padding: 8px;
-    background-color: rgb(151 0 0);
+    padding: 5px 10px;
+    background-color: rgb(150 0 0);
     color: white;
     border-radius: 3px;
 }
 
 .menunav a:hover {
-    background-color: rgb(100 0 0);
+    background-color: rgb(200 0 0);
 }
 
 /*IMAGEM PRINCIPAL*/
@@ -60,11 +78,12 @@ nav ul {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    
     color: rgb(151 0 0);
     margin-bottom: 20px;
     
@@ -72,8 +91,10 @@ h2 {
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: rgb(88, 87, 87);
     font-size: .8rem;
     text-align: justify;
+    line-height: 20px;
 
 }
 
@@ -83,6 +104,116 @@ p {
 
 .imagem-quemsomos {
     width:300px;
-    border-radius: 5px;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);
+}
+
+/*O que fazemos*/
+
+.imagem-oquefazemos {
+    width: 300px;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);
+    margin-left: 80px;
+    
+}
+
+.imagem-oquefazemos:hover {
+    /*fazer a imagem transitar*/
+    
+}
+
+.oquefazemos {
+    width: 100%;
+    height: 400px;
+    background: #0c9ac5ad;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.h2-bg {
+    color: rgb(216, 216, 216);
+    text-align: left;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.p-bg {
+    color: rgb(240, 223, 223);
+    margin-left: 30px;
+    text-indent: 50px;
+    text-align: justify;
+    width: 400px;
+    font-weight: 100px;
+}
+
+/*SOBRE A EMPRESA*/
+
+.sobre-a-empresa {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px
+}
+
+.sobre-a-empresa li {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.8%;
+    padding: 30px 20px;
+    background: rgb(221, 221, 208);
+    border-radius: 0 40px 0 40px;
+    box-shadow: 0px 0px 30px rgba(20, 20, 20, 0.836);
+}
+
+/*objetivos*/
+
+.objetivos h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 5rem;
+    color: rgb(200 0 0); 
+    background: rgb(210, 211, 212); 
+}
+
+.objetivos-HBS {
+    width: 100%;
+    height: 430px;  
+    display: flex; 
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-objetivos {
+    width: 500px;
+    margin: 50px;
+    color: rgb(88, 87, 87);
+    text-align: justify;
+    
+}
+
+.img-objetivos {
+    width: 400px; 
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);  
+}
+
+/*rodape*/
+
+.rodape {
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.p-rodape {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: cornsilk;
+
 }
 
