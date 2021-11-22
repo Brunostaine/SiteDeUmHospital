@@ -1,0 +1,12 @@
+.rodape {
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.p-rodape {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: cornsilk;
+
+}

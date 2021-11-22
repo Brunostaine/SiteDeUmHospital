@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.projeto-brasilia {
+    display: flex;
+    margin: 50px;
+}
+
+.img-brasilia {
+    width: 400px;  
+}
+
+.textos {
+    margin: 30px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.textos h2 {
+    font-size: 2rem;
+    color: rgb(151 0 0 );
+    margin-bottom: 10px;
+}

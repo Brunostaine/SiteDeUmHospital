@@ -1,0 +1,34 @@
+.quemsomos {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    
+    color: rgb(151 0 0);
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(88, 87, 87);
+    font-size: .8rem;
+    text-align: justify;
+    line-height: 20px;
+
+}
+
+.textos {
+    margin: 20px;
+}
+
+.imagem-quemsomos {
+    width:300px;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);
+}

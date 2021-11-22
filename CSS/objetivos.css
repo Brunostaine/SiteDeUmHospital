@@ -1,0 +1,32 @@
+.objetivos h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 5rem;
+    color: rgb(200 0 0); 
+    background: rgb(210, 211, 212); 
+    box-shadow: 0 0 20px rgba(65, 59, 59, 0.575);
+}
+
+.objetivos-HBS {
+    width: 98%;
+    height: 430px;  
+    display: flex; 
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-objetivos {
+    width: 500px;
+    margin: 50px;
+    font-size: 1rem;
+    color: rgb(88, 87, 87);
+    text-align: justify;
+    
+}
+
+.img-objetivos {
+    width: 400px; 
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);  
+}

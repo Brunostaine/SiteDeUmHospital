@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+}
+
+.logomenu {
+    width: 10rem;  
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.menunav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menunav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(150 0 0);
+    color: white;
+    border-radius: 3px;
+}
+
+.menunav a:hover {
+    background-color: rgb(200 0 0);
+}
