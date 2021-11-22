@@ -13,19 +13,7 @@ header {
     width: 100%;
 }
 
-.Titulo-principal {
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    left: 290px;
-    top: 25px;
-    width: 10px;
-    text-align: justify;
-    color: rgb(151 0 0);
-    line-height: 25px;
-    cursor: pointer;
-    
-}
+
 
 .logomenu {
     width: 5rem;  
