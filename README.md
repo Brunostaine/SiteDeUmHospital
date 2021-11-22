@@ -7,4 +7,4 @@ Github pages para visualizar o projeto.
 
 https://brunostaine.github.io/SiteDeUmHospital/
 
-<img src="imagem/foto-da-capa.jpg" alt="foto-so-site">
+
