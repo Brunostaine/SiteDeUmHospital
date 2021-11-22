@@ -13,16 +13,12 @@ header {
     width: 100%;
 }
 
-
-
 .logomenu {
     width: 5rem;  
     margin-left: 20px;
     margin-top: 20px;
     cursor: pointer;
 }
-
-
 
 nav ul {
     list-style: none;
@@ -106,10 +102,10 @@ p {
     
 }
 
-.imagem-oquefazemos:hover {
-    /*fazer a imagem transitar*/
+/*.imagem-oquefazemos:hover {
+    fazer a imagem transitar
     
-}
+}*/
 
 .oquefazemos {
     width: 100%;
