@@ -1,4 +1,76 @@
-h2 {
-    font-size: 8rem;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+.pagina {
+    width: 100%;
+    background: rgb(150, 0, 0);
+    padding: 20px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+
+h3 {
+    color: aliceblue;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+}
+
+form, label {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    text-align: center; 
+    color: aliceblue; 
+    font-size: 1.2rem; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-linha {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+label:hover {
+    cursor: pointer;
+    color: rgb(194, 187, 178);
+    transition: .6s;
+} 
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.input-submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.input-submit:hover {
+    background: rgb(235, 169, 84);  
+}
+
+.input-submit:active {
+    background: rgb(80, 74, 74);
+    transition: .1s;
+}
+

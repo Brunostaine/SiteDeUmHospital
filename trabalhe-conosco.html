@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital Bruno Staine - Trabalhe Conosco</title>
+    <script src="https://kit.fontawesome.com/186179e622.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="imagem/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/menu-principal.css">
     <link rel="stylesheet" href="CSS/css-trabalhe-conosco/css-trabalhe-conosco.css">
+    <link rel="stylesheet" href="CSS/rodape.css">
 </head>
 <body>
     
@@ -24,11 +26,44 @@
             </ul>
         </nav>
 
-        <div>
-            <h2>Preparando o conteúdo</h2>
-        </div>
+        <section class="pagina">
+            <form class="form-contato">
+                <h2>Banco de talentos</h2>
+                <h3>Hospital Bruno Staine</h3>
+
+                <label for="nome-completo">Nome Completo*</label>
+                <input type="text" id="nome-completo" class="input-linha" required>
+
+                <label for="endereço">Endereço*</label>
+                <input type="text" id="endereço" class="input-linha" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-linha">
+
+                <label for="celular">Celular*</label>
+                <input type="text" id="celular" class="input-linha" required>
+
+                <label for="email">E-mail*</label>
+                <input type="text" id="email" class="input-linha" required>
+
+                <label for="quemsoueu">Fale um pouco sobre você*</label>
+                <textarea class="textarea" required id="quemsoueu" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="input-submit">
+            </form>
+        </section>
         
     </header>
+
+    <footer class="rodape">
+        <div class="midia-social">
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram" style="color:white"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook" style="color:white"></i></a>
+            <a href="https://github.com/Brunostaine" target="_blank"><i class="fab fa-github" style="color:white"></i></a>
+        </div>
+    
+        <p class="p-rodape"> &copy; Todos os direitos reservados ao Hospital Bruno Staine.</p>
+    </footer>
 
 </body>
 </html>
