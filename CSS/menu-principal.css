@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 header {
     width: 100%;
 }
@@ -18,6 +27,7 @@ nav ul {
 }
 
 .menunav {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }

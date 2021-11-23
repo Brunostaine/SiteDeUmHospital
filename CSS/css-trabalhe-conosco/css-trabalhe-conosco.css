@@ -5,9 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 .pagina {
     width: 100%;
-    background: rgb(150, 0, 0);
+    background: rgba(160, 3, 3, 0.795);
     padding: 20px;
 }
 

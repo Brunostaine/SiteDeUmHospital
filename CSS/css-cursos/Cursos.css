@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,22 +7,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body {
+    width: 100%;
+}
+
 
 .projeto-brasilia {
+    
     display: flex;
     margin: 50px;
 }
 
-
-.img-brasilia {
-    width: 400px;
+.video {
+    width: 500px;  
     border-radius: 10px;
-    box-shadow: 0 0 10px black; 
-    cursor: pointer; 
+    box-shadow: 0 0 10px black;
 }
 
 .textos {
+    width: 500px;
     margin: 30px;
     text-align: justify;
     line-height: 1.5rem;
@@ -31,5 +36,3 @@
     color: rgb(151 0 0 );
     margin-bottom: 10px;
 }
-
-
