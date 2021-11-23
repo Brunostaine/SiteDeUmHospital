@@ -1,6 +1,7 @@
 .rodape {
     width: 100%;
     background: rgb(0, 0, 0);
+   
 }
 
 .p-rodape {
@@ -8,5 +9,15 @@
     padding: 10px;
     font-size: 1rem;
     color: cornsilk;
+}
 
+.midia-social {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.fab {
+    margin: 10px;
 }
