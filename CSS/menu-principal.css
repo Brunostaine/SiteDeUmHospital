@@ -8,7 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 header {
-    width: 100%;
+    width: 100vw;
+    
 }
 
 .logomenu {
@@ -27,7 +28,7 @@ nav ul {
 }
 
 .menunav {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
 }
