@@ -8,8 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 header {
-    width: 100vw;
-    
+    width: 100vw;   
 }
 
 .logomenu {
@@ -45,4 +44,27 @@ nav ul {
 
 .menunav a:hover {
     background-color: rgb(200 0 0);
+}
+
+@media screen and (max-width: 768px) {
+    .menunav, header {
+        display: block;  
+    }
+    .logomenu {
+        display: flex;
+        width: 50%;        
+    }
+
+    nav ul, .linkmenu {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul, .linkmenu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
 }

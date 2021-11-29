@@ -8,8 +8,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 .rodape {
-    width: 100vw;
+    width: 100%;
+    display: block;
     background: rgb(0, 0, 0); 
+}
+
+.midia-social {
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
 }
 
 .p-rodape {
@@ -19,13 +26,23 @@
     color: cornsilk;
 }
 
-.midia-social {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 40px;
-}
-
 .fab {
     margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .rodape {
+        width: 100%;
+    }
+    .p-rodape {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .rodape {
+        width: 100%;
+    }
+    .p-rodape {
+        font-size: .6rem;
+    }
 }

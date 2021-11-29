@@ -32,4 +32,32 @@
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .projeto-brasilia { 
+        display: inline-block;
+    }
+    .video {
+        width: 100%;
+        align-items: center;
+    }
+
+    .textos h2 {
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projeto-brasilia { 
+        display: inline-block;
+    }
+    .video {
+        width: 100%;
+        align-items: center;
+    }
+
+    .textos h2 {
+        text-align: center;
+    }
+}
+
 

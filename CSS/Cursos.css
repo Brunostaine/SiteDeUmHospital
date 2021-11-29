@@ -8,18 +8,16 @@
 }
 
 body {
-    width: 10vw;
+    width: 100vw;
 }
-
-
 .projeto-brasilia {
-    
     display: flex;
     margin: 50px;
 }
 
 .video {
-    max-width: 500px;  
+    width: 500px;  
+    height: 250px;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
@@ -35,4 +33,34 @@ body {
     font-size: 2rem;
     color: rgb(151 0 0 );
     margin-bottom: 10px;
+    text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .projeto-brasilia { 
+        display: inline-block;
+    }
+    .video {
+        width: 100%;
+        align-items: center;
+    }
+
+    .textos h2 {
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projeto-brasilia { 
+        display: inline-block;
+    }
+    .video {
+        width: 100%;
+        align-items: center;
+    }
+
+    .textos h2 {
+        text-align: center;
+    }
+}
+

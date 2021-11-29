@@ -4,8 +4,7 @@
     width: 300px;
     border-radius: 0 20px 0 20px;
     box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);
-    margin-left: 80px;
-    
+    margin-left: 80px; 
 }
 
 /*.imagem-oquefazemos:hover {
@@ -14,7 +13,7 @@
 }*/
 
 .oquefazemos {
-    width: 100%;
+    width: 100vw;
     height: 400px;
     background: #0c9ac5ad;
     margin: 0 auto;
@@ -38,4 +37,39 @@
     text-align: justify;
     width: 500px;
     font-size: .9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .imagem-oquefazemos {
+        margin: 15px auto;
+    }
+    .oquefazemos {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .h2-bg {
+        text-align: center;
+    }
+    .p-bg {
+        width: 90%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .oquefazemos {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+    }
+    .h2-bg {
+        text-align: center;
+    }
+    .p-bg {
+        width: 90%;
+        margin: 20px;
+    }
+
 }

@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 .quemsomos {
-    width: 800px;
+    width: 768px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
-
 h2 {
     font-family: 'Roboto', sans-serif;
-    
     color: rgb(151 0 0);
     margin-bottom: 20px;
     
@@ -33,4 +31,22 @@ h2 {
     width:300px;
     border-radius: 0 20px 0 20px;
     box-shadow: 0 0 8px rgba(22, 22, 22, 0.849);
+}
+
+@media screen and (max-width: 768px) {
+    .quemsomos {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quemsomos {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
 }
