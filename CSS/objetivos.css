@@ -10,10 +10,10 @@
 }
 
 .objetivos-HBS {
-    width: 98%;
+    width: 100vw;
     height: 430px;  
     display: flex; 
-    margin: 10px auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }

@@ -13,8 +13,7 @@ header {
 
 .logomenu {
     width: 10rem;  
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 0 auto;
     cursor: pointer;
 }
 
@@ -27,7 +26,7 @@ nav ul {
 }
 
 .menunav {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: space-around;
 }
@@ -52,7 +51,9 @@ nav ul {
     }
     .logomenu {
         display: flex;
-        width: 50%;        
+        width: 10rem;  
+        margin: 0 auto;
+        cursor: pointer;      
     }
 
     nav ul, .linkmenu {
@@ -66,5 +67,14 @@ nav ul {
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
+    }
+
+    .logomenu {
+        width: 10rem;  
+        margin: 0 auto;
+        cursor: pointer;
+
+        
+        
     }
 }
