@@ -14,7 +14,7 @@
 
 .oquefazemos {
     width: 100vw;
-    height: 400px;
+    height: 40vh;
     background: #0c9ac5ad;
     margin: 0 auto;
     display: flex;
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
     .imagem-oquefazemos {
-        margin: 15px auto;
+        margin:10px auto;
     }
     .oquefazemos {
         display: block;
@@ -52,23 +52,31 @@
         text-align: center;
     }
     .p-bg {
-        width: 90%;
+        width: 80%;
         margin: 20px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .imagem-oquefazemos {
+        width: 250px;
+        margin:10px auto;
+    }
     .oquefazemos {
-        display: block;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        width: 90%;
+        height: auto;
         text-align: center;
+        padding: 20px;
         margin: 20px;
     }
     .h2-bg {
         text-align: center;
     }
     .p-bg {
-        width: 90%;
+        width: 80%;
         margin: 20px;
     }
 

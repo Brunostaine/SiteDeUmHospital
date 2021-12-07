@@ -16,14 +16,13 @@ body {
 }
 
 .video {
-    width: 500px;  
-    height: 250px;
+    width: 40%;  
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
 
 .textos {
-    width: 500px;
+    width: 50%;
     margin: 30px;
     text-align: justify;
     line-height: 1.5rem;
@@ -38,28 +37,33 @@ body {
 
 @media screen and (max-width: 768px) {
     .projeto-brasilia { 
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
     .video {
         width: 100%;
         align-items: center;
     }
 
-    .textos h2 {
-        
+    .textos {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .projeto-brasilia { 
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
     .video {
         width: 100%;
-        align-items: center;
+        height: 50%;  
     }
 
     .textos h2 {
+        font-size: 1.5rem;
         text-align: center;
     }
 }

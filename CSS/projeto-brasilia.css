@@ -14,7 +14,7 @@
 
 
 .img-brasilia {
-    max-width: 400px;
+    max-width: 40%;
     border-radius: 10px;
     box-shadow: 0 0 10px black; 
     cursor: pointer; 
@@ -34,29 +34,27 @@
 
 @media screen and (max-width: 768px) {
     .projeto-brasilia { 
-        display: inline-block;
-    }
-    .video {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         align-items: center;
     }
-
-    .textos h2 {
-        
+    .img-brasilia {
+        width: 100%;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 600px) {
     .projeto-brasilia { 
-        display: inline-block;
-    }
-    .video {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         align-items: center;
     }
-
-    .textos h2 {
-        text-align: center;
+    .img-brasilia {
+        width: 100%;
+        align-items: center;
     }
 }
 
