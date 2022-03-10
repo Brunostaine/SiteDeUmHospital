@@ -1,30 +1,57 @@
-<h1 align="center";>SiteDeUmHospital</h1> 
+<h1 align="center"> Hospital Bruno Staine </h1>
+  
+![hospital-brunostaine](https://user-images.githubusercontent.com/87622645/157760165-ccd2bb6c-0bc3-43a3-bf86-e32b86b83697.png)
 
-<p align="center";>Projeto de um web site, com o objetivo de consolidar meus conhecimentos em html e css.</p> 
-
-<p align="center";>O site estará hospedado no link abaixo, caso queira visualizar</p>
-
-<h1 align="center";>Github pages para visualizar o projeto.</h1>
-
-<p align="center";>https://brunostaine.github.io/SiteDeUmHospital/</p>
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87622645/143773064-3f4d53b9-ec54-4733-bc2d-d7008dbfecd9.png"/>
-</div>
+## INDICE
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87622645/143773352-fcb378fc-23cf-425f-b00c-a32d76788b0a.png"/>
-</div>
+* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Badges](#badges)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Autor](#Autor)
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87622645/143773456-f8bbc340-d3ca-41e2-8837-70f14dcd5ea4.png"/>
-</div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87622645/143773417-e06d5e94-0779-4832-9809-de976a716931.png"/>
-</div>
+## Descrição do projeto
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/87622645/143773427-695e8b55-4e8c-46d1-9054-6a5f2fa35c31.png"/>
-</div>
+- Esse projeto foi bem bacana, estou aprendendo mais detalhadamente sobre html e css. Fui desafiado a criar um projeto do zero com várias páginas, o intuito é mostrar um pouco mais dos conhecimentos de html e css como já falei. O incrivel foi que ficou um site até bem estruturado e com o designer bem bonito.
+
+## :hammer: Funcionalidades do projeto
+
+- `Home` : Mostra um pouco sobre a empresa e os principais serviços
+- `Cursos` : Mostra uma lista de cursos que o hospital oferece para seus colaboradores
+- `Projetos` : Mostra as filiais que o hospital tem em torno do país
+- `Trabalhe conosco` : Página de formulário onde a pessoa pode cadastrar ser curriculo
+
+
+## 📁 Acesso ao projeto
+
+**Acesso ao código do projeto**<br>
+https://github.com/Brunostaine/SiteDeUmHospital
+
+
+## 🛠️ Abrir e rodar o projeto
+
+**https://brunostaine.github.io/SiteDeUmHospital/trabalhe-conosco.html**
+
+## Tecnicas e tecnologias utilizadas
+
+* HTML
+* CSS
+
+- Marcação HTML5 semântica
+- Propriedades personalizadas CSS
+- Resposividade
+
+## Autor
+
+<img src="https://user-images.githubusercontent.com/87622645/157755137-8d22a951-d323-4c33-814e-c0351ebefafe.png" width=115><br>
+<sub>Bruno Staine Caires de Oliveira</sub><br>
+https://github.com/Brunostaine 
