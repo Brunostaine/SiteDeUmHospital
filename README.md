@@ -1,17 +1,18 @@
 <h1 align="center"> Hospital Bruno Staine </h1>
-  
-![hospital-brunostaine](https://user-images.githubusercontent.com/87622645/157760165-ccd2bb6c-0bc3-43a3-bf86-e32b86b83697.png)
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
+  
+![hospital-brunostaine](https://user-images.githubusercontent.com/87622645/157760165-ccd2bb6c-0bc3-43a3-bf86-e32b86b83697.png)
 
 
 ## INDICE
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Título](#titulo)
 * [Badges](#badges)
+* [Status do Projeto](#status-do-Projeto)
+* [Imagem de capa](#Imagem-de-capa)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
